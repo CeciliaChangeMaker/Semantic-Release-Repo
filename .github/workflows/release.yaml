@@ -1,6 +1,6 @@
 name: release
 
-on: workflow_dispatch #manually trigger in github
+on: [workflow_dispatch] #manually trigger in github
 
 jobs:
   release:
